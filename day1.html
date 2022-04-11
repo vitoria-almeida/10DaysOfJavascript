@@ -7,19 +7,18 @@
     <title>Day 1 - Age Calculator</title>
 </head>
 <body>
-
     <h1>Age Calculator</h1>
-    <label>Date</label>
-    <input type="number" placeholder="00" id="date"/>
+    <form>
+        <label for="date">Date</label>
+        <input type="number" placeholder="00" id="date"/>
 
-    <label>Month</label>
-    <input type="number" placeholder="00" id="month"/>
+        <label for="month">Month</label>
+        <input type="number" placeholder="00" id="month"/>
 
-    <label>Year</label>
-    <input type="number" placeholder="0000" id="year"/>
-  
+        <label for="year">Year</label>
+        <input type="number" placeholder="0000" id="year"/>
+    </form>
     <button type="submit" onclick=age()>calculate</button>
-
     <h3 id="result"></h3>
 
     <script>
