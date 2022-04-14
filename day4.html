@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slide</title>
+
+    <style> 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+        body {
+            width: 100%;
+            overflow: hidden;
+        }
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }       
+        img {
+            width: 80%;
+        }
+        button {
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button onclick=prev()>prev</button>
+        <img src="./imgs/dog (1).jpg" alt="dog" id="slider"/>
+        <button onclick=next()>next</button>
+    </div>
+
+    <script src="./day4.js"></script>   
+</body>
+</html>
