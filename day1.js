@@ -13,6 +13,7 @@ function age() {
         current_date = current_date + months[current_month - 1]
         current_month = current_month - 1
     }
+    
     if(month.value > current_month){
         current_month = current_month + 12
         current_year = current_year - 1
